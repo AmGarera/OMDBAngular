@@ -23,7 +23,7 @@ folders in your project.
 * `app/bower_components` - contains the angular framework files
 
 *Note that the `bower_components` folder would normally be installed in the root folder but
-angular-seed changes this location through the `.bowerrc` file.  Putting it in the app folder makes
+OMDBAngular changes this location through the `.bowerrc` file.  Putting it in the app folder makes
 it easier to serve the files by a webserver.*
 
 ### Run the Application
@@ -40,11 +40,11 @@ Now browse to the app at `http://localhost:8000/index.html`.
 
 ## Testing
 
-There are two kinds of tests in the angular-seed application: Unit tests and end-to-end tests.
+There are two kinds of tests in the OMDBAngular application: Unit tests and end-to-end tests.
 
 ### Running Unit Tests
 
-The angular-seed app comes preconfigured with unit tests. These are written in
+The OMDBAngular app comes preconfigured with unit tests. These are written in
 [Jasmine][jasmine], which we run with the [Karma Test Runner][karma]. We provide a Karma
 configuration file to run them.
 
@@ -73,7 +73,7 @@ npm run test-single-run
 
 ### End to end testing
 
-The angular-seed app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
+The OMDBAngular app comes with end-to-end tests, again written in [Jasmine][jasmine]. These tests
 are run with the [Protractor][protractor] End-to-End test runner.  It uses native events and has
 special features for Angular applications.
 
@@ -88,8 +88,7 @@ can interact with it.
 npm start
 ```
 
-In addition, since Protractor is built upon WebDriver we need to install this.  The angular-seed
-project comes with a predefined script to do this:
+In addition, since Protractor is built upon WebDriver we need to install this.
 
 ```
 npm run update-webdriver
@@ -110,7 +109,7 @@ development server.
 
 ## Updating Angular
 
-Previously we recommended that you merge in changes to angular-seed into your own fork of the project.
+Previously we recommended that you merge in changes to OMDBAngular into your own fork of the project.
 Now that the angular framework library code and tools are acquired through package managers (npm and
 bower) you can use these tools instead to update the dependencies.
 
